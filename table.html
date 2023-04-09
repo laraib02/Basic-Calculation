@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Calculation</title>
+     <!-- font awsome  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.css">
+     <!-- style  -->
+     <link rel="stylesheet" href="assets/css/style.css">
+     <!-- JavaScript  -->
+     <script src="assets/js/calculation.js"></script>
+  </head>
+  <body>
+    <div class="container mt-5">
+        <div class="h1 text-center text-uppercase">Calculation <i class="fa fa-calculator"></i></div>
+        <table class="table mt-5">
+            <thead>
+              <tr>
+                <th scope="col">First Num</th>
+                <th scope="col">Second Num</th>
+                <th scope="col">Calculation</th>
+                <th scope="col">Output</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                        <input type="number" value="5" id="number1" class="form-control">
+                </td>
+                <td>
+                    <input type="number" value="10" id="number2" class="form-control">
+                </td>
+                    
+                <td>
+                    <button class="btn btn-success" onclick="sumnumbers()">
+                        <i class="fa fa-plus"></i>
+                    </button>
+                    <button class="btn btn-danger" onclick="subnumbers()">
+                        <i class="fa fa-minus"></i>
+                    </button>
+                    <button class="btn btn-primary" onclick="dividenumbers()">
+                        <strong>/</strong>
+                    </button>
+                    <button class="btn btn-warning" onclick="multinumbers()">
+                        <i class="fa fa-times"></i>
+                    </button>
+                    <button class="btn btn-info" onclick="reminder()">
+                        <i class="fa fa-percent"></i>
+                    </button>
+                  
+                </td>
+                <td>
+                    <p id="result"></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    <script>
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
